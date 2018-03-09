@@ -21,7 +21,7 @@ class SolutionTest {
         solution = new Solution();
     }
 
-    @Test
+    @org.junit.Test
     void empty() {
         test("", 0, 2);
     }
